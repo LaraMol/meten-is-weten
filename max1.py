@@ -1,9 +1,7 @@
-question = input ('geef me een getal onder de 100')
+a = int(input("Geef a nu: "))
+b = int(input("geef b nu: "))
 
-max = 41
-
-if max < 100:
-    print ("A het grootste getal")
-
-elif max < 41:
-    print("a is het kleinst getal")
+if a>b:
+    print("a is het grootste getal")
+elif b>a:
+    print ("a is het kleinst getal")
