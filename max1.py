@@ -2,8 +2,13 @@ a = int(input("Geef a nu: "))
 b = int(input("geef b nu: "))
 
 if a>b:
-    print("a is het grootste getal")
+    max = a
+    min = b
+    print("a is het grootste getal" + str(max))
 elif b>a:
-    print ("a is het kleinst getal")
+    max = b
+    min = a
+    print ("a is het kleinst getal" + str(min))
+    
 else:
     print ("a en b zijn even groot")
