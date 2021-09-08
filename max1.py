@@ -4,3 +4,6 @@ max = 41
 
 if max < 100:
     print ("A het grootste getal")
+
+elif max < 41:
+    print("a is het kleinst getal")
