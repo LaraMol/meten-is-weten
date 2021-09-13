@@ -2,6 +2,6 @@ services:
   python:
     image: python:latest
     working_dir: /code
-    command: python3 max1.py
+    command: python3 geneste.py
     volumes: 
       - ./:/code
